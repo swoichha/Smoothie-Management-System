@@ -15,6 +15,14 @@ Install Superbase, the [client library](https://supabase.com/docs/reference/java
 
 `npm install @supabase/supabase-js`
 
+## Icons
+
+Using google icons
+
+`
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
