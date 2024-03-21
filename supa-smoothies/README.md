@@ -10,6 +10,11 @@ Install React Router:
 
 `npm install react-router-dom  `
 
+## Install Superbase
+Install Superbase, the [client library](https://supabase.com/docs/reference/javascript/installing). This is used to connect to the backend.
+
+`npm install @supabase/supabase-js`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
