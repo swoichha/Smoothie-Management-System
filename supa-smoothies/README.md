@@ -1,3 +1,15 @@
+# superbase-basics
+Web Application build using React.js + Supabase. The application will have smoothies card on which CRUD will be performed.
+
+## React App Creation
+Run following command:
+
+`npx create-react-app@latest supa-smoothies`
+
+Install React Router:
+
+`npm install react-router-dom  `
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
