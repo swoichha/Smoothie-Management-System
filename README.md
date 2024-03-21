@@ -1,5 +1,14 @@
 # Smoothie Management System
-Web Application build using React.js + Supabase. The application will have smoothies card on which CRUD will be performed.
+
+This project is a web application developed using React, HTML, CSS, and Supabase. It serves as a management system for smoothies, allowing users to easily create, edit, and delete smoothie recipes.
+
+### Description:
+
+The Smoothie Management System provides users with a convenient platform to organize and manage their smoothie recipes. Built with React for the frontend interface and HTML/CSS for styling, the application offers a visually appealing and user-friendly experience.
+
+Utilizing the Supabase database, the system ensures seamless data management and synchronization. Users can effortlessly add new smoothie recipes, edit existing ones, and delete recipes they no longer need. Real-time updates are reflected across the application and on the Supabase dashboard, ensuring that users always have access to the latest information.
+
+With its intuitive interface and robust functionality, the Smoothie Management System simplifies the process of managing smoothie recipes, making it an ideal choice for smoothie enthusiasts and health-conscious individuals alike. The application will have a smoothies card on which CRUD will be performed.
 
 ### Features
 
@@ -9,9 +18,12 @@ Web Application build using React.js + Supabase. The application will have smoot
 - **Real-time Updates:** Any actions performed such as adding, deleting, or updating smoothies are reflected in real-time on the Supabase database dashboard and on the home page of the application.
   
  ![supabase-smoothie-app-demo](https://github.com/swoichha/supabase-basics/assets/17021686/e9deb585-3b56-4b72-bfcc-cf6d4eeb0ddc)
+## How to run the project
+
+From the project directory, run `npm start to run`. The app can be viewed in a browser at http://localhost:3000.
 
 ## React App Creation
-Run following command:
+Run the following command:
 
 `npx create-react-app@latest supa-smoothies`
 
@@ -67,11 +79,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single-build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
