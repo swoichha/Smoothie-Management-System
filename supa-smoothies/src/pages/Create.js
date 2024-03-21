@@ -1,8 +1,11 @@
 import { useState } from "react"
 import supabase from "../config/supabaseClient"
+import {useNavigate} from "react-router-dom"
 
 const Create = () => {
-
+  
+  const navigate = useNavigate()
+  
   const [title, setTitle] = useState('')
   const [method, setMethod] = useState('')
   const [rating, setRating] = useState('')
@@ -29,6 +32,7 @@ const Create = () => {
     if (data) {
       console.log(data)
       setFormError(null)
+      navigate('/')
     }
   }
 
